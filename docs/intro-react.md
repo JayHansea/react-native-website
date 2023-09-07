@@ -71,7 +71,8 @@ Now take a closer look at that `return` statement. `<Text>Hello, I am your cat!<
 
 ## JSX
 
-React and React Native use **JSX,** a syntax that lets you write elements inside JavaScript like so: `<Text>Hello, I am your cat!</Text>`. The React docs have [a comprehensive guide to JSX](https://react.dev/learn/writing-markup-with-jsx) you can refer to learn even more. Because JSX is JavaScript, you can use variables inside it. Here you are declaring a name for the cat, `name`, and embedding it with curly braces inside `<Text>`.
+React and React Native use **JSX,** a syntax that lets you write elements inside JavaScript like so: `<Text>Hello, I am your cat!</Text>`. The React docs have [a comprehensive guide to JSX](https://react.dev/learn/writing-markup-with-jsx) you can refer to learn even more. 
+Since JSX is based on JavaScript, you can easily include variables in it. In the following code snippet, you're declaring a name for the cat, `name`, and embedding it within `<Text>` using curly braces.
 
 ```SnackPlayer name=Curly%20Braces
 import React from 'react';
